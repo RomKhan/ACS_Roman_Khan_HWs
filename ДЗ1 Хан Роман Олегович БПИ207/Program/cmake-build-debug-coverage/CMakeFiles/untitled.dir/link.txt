@@ -1,0 +1,1 @@
+/usr/bin/cc --coverage -g CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/container.c.o CMakeFiles/untitled.dir/shape.c.o CMakeFiles/untitled.dir/rectangle.c.o CMakeFiles/untitled.dir/triangle.c.o CMakeFiles/untitled.dir/random.c.o CMakeFiles/untitled.dir/cicrle.c.o CMakeFiles/untitled.dir/exceptions.c.o -o ../bin/untitled  -lm 

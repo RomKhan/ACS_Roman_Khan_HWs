@@ -1,0 +1,3 @@
+/home/fff/Desktop/ABC (copy)/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/home/fff/Desktop/ABC (copy)/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/home/fff/Desktop/ABC (copy)/cmake-build-debug-coverage/CMakeFiles/untitled.dir

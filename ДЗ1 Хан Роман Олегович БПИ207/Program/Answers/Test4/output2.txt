@@ -1,0 +1,15 @@
+Perimeter sum = 181.132741
+Perimeter average = 60.377580
+Changed container:
+Container contains 2 elements.
+1: It is Rectangle:
+	point1: 3 4
+	point2: 8 9
+	Perimeter = 20.000000
+	Color: ORANGE
+2: It is Circle:
+	x = 6,
+	y = 77,
+	r = 4,
+	Perimeter = 25.132741
+	Color: TRANSPARENT

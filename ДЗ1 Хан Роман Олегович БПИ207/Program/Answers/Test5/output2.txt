@@ -1,0 +1,9 @@
+Perimeter sum = 12.000000
+Perimeter average = 12.000000
+Changed container:
+Container contains 1 elements.
+1: It is Rectangle:
+	point1: 6 0
+	point2: 0 0
+	Perimeter = 12.000000
+	Color: GREEN

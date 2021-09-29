@@ -1,0 +1,19 @@
+Filled container:
+Container contains 3 elements.
+1: It is Rectangle:
+	point1: 2 3
+	point2: 4 5
+	Perimeter = 8.000000
+	Color: ORANGE
+2: It is Triangle:
+	a = 434 2,
+	b = 64 2,
+	c = 6 4,
+	Perimeter = 323456.000000
+	Color: BLUE
+3: It is Circle:
+	x = 12,
+	y = 53,
+	r = 2,
+	Perimeter = 12.566370
+	Color: PURPLE

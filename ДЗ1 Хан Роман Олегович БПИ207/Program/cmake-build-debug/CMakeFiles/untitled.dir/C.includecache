@@ -1,0 +1,98 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fff/Desktop/ABC (copy)/circle.h
+stdio.h
+-
+random.h
+/home/fff/Desktop/ABC (copy)/random.h
+point.h
+/home/fff/Desktop/ABC (copy)/point.h
+exceptions.h
+/home/fff/Desktop/ABC (copy)/exceptions.h
+stdbool.h
+-
+
+/home/fff/Desktop/ABC (copy)/container.h
+stdio.h
+-
+shape.h
+/home/fff/Desktop/ABC (copy)/shape.h
+container.h
+/home/fff/Desktop/ABC (copy)/container.h
+stdlib.h
+/home/fff/Desktop/ABC (copy)/stdlib.h
+
+/home/fff/Desktop/ABC (copy)/exceptions.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
+/home/fff/Desktop/ABC (copy)/main.c
+stdio.h
+-
+string.h
+-
+container.h
+/home/fff/Desktop/ABC (copy)/container.h
+time.h
+/home/fff/Desktop/ABC (copy)/time.h
+exceptions.h
+/home/fff/Desktop/ABC (copy)/exceptions.h
+
+/home/fff/Desktop/ABC (copy)/point.h
+
+/home/fff/Desktop/ABC (copy)/random.h
+stdlib.h
+-
+
+/home/fff/Desktop/ABC (copy)/rectangle.h
+stdio.h
+-
+random.h
+/home/fff/Desktop/ABC (copy)/random.h
+point.h
+/home/fff/Desktop/ABC (copy)/point.h
+stdbool.h
+-
+exceptions.h
+/home/fff/Desktop/ABC (copy)/exceptions.h
+
+/home/fff/Desktop/ABC (copy)/shape.h
+rectangle.h
+/home/fff/Desktop/ABC (copy)/rectangle.h
+triangle.h
+/home/fff/Desktop/ABC (copy)/triangle.h
+circle.h
+/home/fff/Desktop/ABC (copy)/circle.h
+stdio.h
+-
+random.h
+/home/fff/Desktop/ABC (copy)/random.h
+stdbool.h
+-
+exceptions.h
+/home/fff/Desktop/ABC (copy)/exceptions.h
+
+/home/fff/Desktop/ABC (copy)/triangle.h
+stdio.h
+-
+math.h
+-
+random.h
+/home/fff/Desktop/ABC (copy)/random.h
+point.h
+/home/fff/Desktop/ABC (copy)/point.h
+stdbool.h
+-
+exceptions.h
+/home/fff/Desktop/ABC (copy)/exceptions.h
+

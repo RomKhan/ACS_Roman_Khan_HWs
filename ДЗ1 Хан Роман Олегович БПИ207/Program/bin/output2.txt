@@ -1,0 +1,4 @@
+Perimeter sum = 0.000000
+Perimeter average = -nan
+Changed container:
+Container contains 0 elements.
