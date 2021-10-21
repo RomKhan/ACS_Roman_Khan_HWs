@@ -33,8 +33,6 @@
  * @return код завершения программы.
  */
 int main(int argc, char *argv[]) {
-    clock_t time_start = clock();
-
     if (argc == 3 && !strcmp(argv[1], "-g")) {
         int size = strtol(argv[2], &argv[2], 0);
         if ((size < 1) || (size > 10000)) {
@@ -45,6 +43,8 @@ int main(int argc, char *argv[]) {
         printf("Test generated successful!\n");
         return 5;
     }
+
+    clock_t time_start = clock();
 
     // Обработка некорректного количества аргументов.
     if (argc != 5) {
