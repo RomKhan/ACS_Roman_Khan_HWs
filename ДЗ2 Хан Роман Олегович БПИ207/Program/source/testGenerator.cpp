@@ -7,7 +7,7 @@
  * @param size - количество фигур.
  */
 void TestGenerator::generateTest(int size) {
-    FILE *inputFile = fopen("testAutomaticGenerate.txt", "r+");
+    FILE *inputFile = fopen("testAutomaticGenerate.txt", "w");
     for (int i = 0; i < size; ++i) {
         int type = Random::next(1, 4);
         int color = Random::next(0, 7);
@@ -51,7 +51,7 @@ void TestGenerator::generateRectangleCoordinates(int &x1, int &y1, int &x2, int 
     do {
         x2 = Random::next(0, 1000);
         y2 = Random::next(0, 1000);
-    } while (x2 <= x1 || y1 >= y2);
+    } while (x2 <= x1 || y2 >= y1);
 }
 
 /**

@@ -71,7 +71,7 @@ private:
     int len;
 
     // Массив ссылок на фигуры.
-    Shape *storage[10000];
+    Shape *storage[10001];
 };
 
 #endif

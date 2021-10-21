@@ -35,7 +35,7 @@
 int main(int argc, char *argv[]) {
     clock_t time_start = clock();
 
-    if (argc == 2 && !strcmp(argv[1], "-g")) {
+    if (argc == 3 && !strcmp(argv[1], "-g")) {
         int size = strtol(argv[2], &argv[2], 0);
         if ((size < 1) || (size > 10000)) {
             printf("incorrect number of figures = %d. Set 0 < number <= 10000\n", size);
@@ -59,7 +59,6 @@ int main(int argc, char *argv[]) {
     if (!strcmp(argv[1], "-f")) {
         FILE *inputFile = fopen(argv[2], "r");
         c.In(inputFile);
-        fclose(inputFile);
     } else if (!strcmp(argv[1], "-n")) {
         int size = strtol(argv[2], &argv[2], 0);
         if ((size < 1) || (size > 10000)) {
