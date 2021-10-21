@@ -2,6 +2,7 @@
 #define __random__
 
 #include <stdlib.h>
+#include "stdint.h"
 
 // random.h - содерит спецификацию класса геренации
 // случайных числе в диаопзоне от 1 до 20.
