@@ -58,6 +58,10 @@ int main(int argc, char *argv[]) {
 
     if (!strcmp(argv[1], "-f")) {
         FILE *inputFile = fopen(argv[2], "r");
+        if (inputFile == NULL) {
+            printf("Incorrect input file");
+            return 6;
+        }
         c.In(inputFile);
     } else if (!strcmp(argv[1], "-n")) {
         int size = strtol(argv[2], &argv[2], 0);

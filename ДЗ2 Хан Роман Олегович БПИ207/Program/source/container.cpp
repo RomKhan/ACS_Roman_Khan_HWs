@@ -18,11 +18,10 @@ Container::~Container() {
  * Метод очистки контейнера от фигур.
  */
 void Container::Clear() {
-    for (int i = 0; i < len - 1; i++) {
+    for (int i = 0; i < len; i++) {
         delete storage[i];
         storage[i] = nullptr;
     }
-    storage[len - 1] = nullptr;
     len = 0;
 }
 
@@ -92,7 +91,7 @@ void Container::RemoveAlternativesWithBigPerimeter() {
     for (int i = 0; i < len; i++) {
         if (storage[i]->Perimeter() > average) {
             len--;
-            for (int j = i; j < len - 1; j++) {
+            for (int j = i; j < len; j++) {
                 storage[j] = storage[j + 1];
             }
             storage[len] = nullptr;
