@@ -16,4 +16,4 @@ Container contains 3 elements.
 	b = 4 7,
 	c = 8 8,
 	Perimeter = 136.000000
-	Color: PURPLE
+	Color: TRANSPARENT
