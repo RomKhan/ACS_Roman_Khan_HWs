@@ -59,6 +59,7 @@ def StartBaseLogic():
 if __name__ == '__main__':
     if len(sys.argv) < 2 or len(sys.argv) > 4:
         Exceptions.incorrectArguments()
+        sys.exit(1)
     if sys.argv[1] == "-f":
         if len(sys.argv) == 4:
             inputFileName = sys.argv[2]
