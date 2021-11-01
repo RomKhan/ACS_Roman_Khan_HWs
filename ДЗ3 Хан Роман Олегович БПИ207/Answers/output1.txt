@@ -1,0 +1,38 @@
+	Before function
+<----------------------->
+Container is store 3 shapes:
+It is a Rectangle:
+	color - RED
+	firstPoint = 2 3
+	secondPoint = 4 5
+	Perimeter = 8.0
+It is a Triangle:
+	color - LIGHTBLUE
+	a = 434 2
+	b = 64 2
+	c = 6 4
+	Perimeter = 323456.0
+It is a Circle:
+	color - BLUE
+	center = 12 53
+	r = 2
+	Perimeter = 12.566370614359172
+Summa of Perimeters  = 323476.56637061434
+Average perimeter: 107825.52212353812
+<----------------------->
+
+	After function
+<----------------------->
+Container is store 2 shapes:
+It is a Rectangle:
+	color - RED
+	firstPoint = 2 3
+	secondPoint = 4 5
+	Perimeter = 8.0
+It is a Circle:
+	color - BLUE
+	center = 12 53
+	r = 2
+	Perimeter = 12.566370614359172
+Summa of Perimeters  = 20.566370614359172
+<----------------------->

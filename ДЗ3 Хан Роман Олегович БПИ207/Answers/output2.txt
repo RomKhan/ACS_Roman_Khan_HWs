@@ -1,0 +1,12 @@
+	Before function
+<----------------------->
+Container is store 0 shapes:
+Summa of Perimeters  = 0.0
+Average perimeter: 0.0
+<----------------------->
+
+	After function
+<----------------------->
+Container is store 0 shapes:
+Summa of Perimeters  = 0.0
+<----------------------->

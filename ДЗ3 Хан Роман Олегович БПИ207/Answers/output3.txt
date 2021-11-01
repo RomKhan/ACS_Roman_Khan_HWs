@@ -1,0 +1,3 @@
+(in console)
+Program was closed with exception - Incorrect file input!
+Please fix the file input arguments and try again
