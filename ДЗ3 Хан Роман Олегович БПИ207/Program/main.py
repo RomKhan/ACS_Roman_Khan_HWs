@@ -83,6 +83,9 @@ if __name__ == '__main__':
         StartBaseLogic()
     elif sys.argv[1] == "-n":
         count = -1
+        if len(sys.argv) < 3 or not sys.argv[2].isdigit():
+            Exceptions.incorrectArguments()
+            sys.exit(1)
         if len(sys.argv) == 4:
             count = int(sys.argv[2])
             outputFileName = sys.argv[3]
@@ -95,10 +98,7 @@ if __name__ == '__main__':
             strArray = GeneratorAndWriter.RndGenerateArr(count)
             StartBaseLogic()
     elif sys.argv[1] == "-g":
-        if len(sys.argv) < 3:
-            Exceptions.incorrectArguments()
-
-        if not sys.argv[2].isdigit():
+        if len(sys.argv) < 3 or not sys.argv[2].isdigit():
             Exceptions.incorrectArguments()
             sys.exit(1)
         count = int(sys.argv[2])
