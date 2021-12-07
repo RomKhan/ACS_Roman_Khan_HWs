@@ -1,0 +1,1 @@
+incorrect number of figures = 0. Set 0 < number <= 10000
